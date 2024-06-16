@@ -1,10 +1,17 @@
-import './App.css';
+import "./App.css";
+import Head from "./components/Head";
+import Body from "./components/Body";
+import appStore from "./utils/appStore";
+import { Provider } from "react-redux";
 
 function App() {
   return (
-    <div >
-      <h1>My youtube</h1>
-    </div>
+    <Provider store={appStore}>
+      <div>
+        <Head />
+        <Body />
+      </div>
+    </Provider>
   );
 }
 
