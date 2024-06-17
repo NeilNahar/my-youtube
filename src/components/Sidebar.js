@@ -6,7 +6,7 @@ const Sidebar = () => {
   return (
     <>
       {sideBarShow && (
-        <div className="flex-none w-48 text-sm flex flex-col gap-3 p-3 border-2 border-indigo-600">
+        <div className="flex-none w-48 text-sm flex flex-col gap-3 p-3">
           <div>
             <ul>
               <li className="p-1">Home</li>
